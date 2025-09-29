@@ -1,55 +1,33 @@
-## Getting Started
 
-Create a project using this example:
+# ⚔️ Fight For HBAR  
 
-```bash
-npx thirdweb create --contract --template hardhat-javascript-starter
-```
+## ⚔️ About the Game  
+**Fight For HBAR** is a **Online PvP melee battle game** where players fight in a real-time combat arena to win **HBAR tokens**. Players must deposit HBAR as an **entry fee**, and the winner claims the prize. The game combines **competitive skill-based gameplay** with blockchain-powered rewards.  
 
-You can start editing the page by modifying `contracts/Contract.sol`.
+## 🎮 Play Now !!!
+- For WebGL (Web Hosted - Play On browser) :- ▶️ https://nabil-ansari.itch.io/fight-for-HBAR  
 
-To add functionality to your contracts, you can use the `@thirdweb-dev/contracts` package which provides base contracts and extensions to inherit. The package is already installed with this project. Head to our [Contracts Extensions Docs](https://portal.thirdweb.com/contractkit) to learn more.
+## ✨ Features  
+✅ **PvP Melee Combat** – Fast-paced skill-based fighting mechanics.  
+✅ **HBAR Token Economy** – Earn HBAR by defeating opponents.  
+✅ **Lobby & Matchmaking** – Connect with opponents Form Anyware Around the World.  
+✅ **Real-Time Networking** – Realtime players synchronization.  
+✅ **Dynamic Combat System** – Attack, dodge opponents.  
 
-## Building the project
+## 🛠️ Tech Stack  
+- **Game Engine:** Unity  
+- **Blockchain Integration:** Smart contracts for HBAR transactions  
+- **Networking:** Unity Netcode + Unity Relay + Unity Lobby  
+- **Physics:** Unity Network Rigidbody for accurate interactions  
 
-After any changes to the contract, run:
+## 🔥 How It Works  
+1. **Enter the game** → Create/Join the lobby.  
+2. **Matchmaking** → Find and Join Available Lobbys. 
+3. **Deposit HBAR** → Required entry fee for a match.  
+4. **Fight Begins** → Engage in real-time melee combat.  
+5. **Winner Declared** → The winning player receives **2X(Entry Fee) HBAR as reward.    
 
-```bash
-npm run build
-# or
-yarn build
-```
 
-to compile your contracts. This will also detect the [Contracts Extensions Docs](https://portal.thirdweb.com/contractkit) detected on your contract.
+## 📩 Contact  
+For questions, reach out via [nabil.aaaman@gmail.com].  
 
-## Deploying Contracts
-
-When you're ready to deploy your contracts, just run one of the following command to deploy you're contracts:
-
-```bash
-npm run deploy
-# or
-yarn deploy
-```
-
-> [!IMPORTANT]
-> This requires a secret key to make it work. Get your secret key [here](https://thirdweb.com/dashboard/settings/api-keys).
-> Pass your secret key as a value after `-k` flag.
-> ```bash
-> npm run deploy -- -k <your-secret-key>
-> # or
-> yarn deploy -k <your-secret-key>
-
-## Releasing Contracts
-
-If you want to release a version of your contracts publicly, you can use one of the followings command:
-
-```bash
-npm run release
-# or
-yarn release
-```
-
-## Join our Discord!
-
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
